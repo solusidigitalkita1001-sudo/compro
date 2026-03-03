@@ -17,7 +17,7 @@ const contactInfo = [
   {
     id: 1,
     system: "Email",
-    contact: "sdk_management@Gmail.Com",
+    contact: "solusidigitalkita1001@gmail.com",
   },
   {
     id: 2,
@@ -85,12 +85,15 @@ const AboutMe = ({ isTabActive }) => {
                         className="col-xxl-6 col-xl-6 col-lg-12 col-md-6"
                         data-aos="zoom-in"
                       >
-                        <div className="abox">
+                        <div className="abox h-100">
                           <div className="about__contbox__item">
                             <span className="ptext fz-18 mb-20 d-block">
                               {system}
                             </span>
-                            <Link to={""}>{contact}</Link>
+                            {/* <Link to={""}>{contact}</Link> */}
+                            <Link to="" style={{ wordBreak: "break-word", overflowWrap: "break-word" }}>
+                              {contact}
+                            </Link>
                             {socalContact && (
                               <ul className="d-flex align-items-center gap-2 gap-xl-4">
                                 {socalContact.map((info, index) => (

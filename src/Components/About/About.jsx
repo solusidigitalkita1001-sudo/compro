@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 
 import sectionStar from "../../assets/img/about/section-star.png";
 import Experience from "./Experience";
-import Education from "./Education";
 import Skills from "./Skills";
 import AboutMe from "./AboutMe";
 
@@ -27,7 +26,7 @@ const tabList = [
   // },
   {
     id: 4,
-    name: "Skills",
+    name: "Kompetensi & Keahlian",
     value: "skills",
   },
 ];
@@ -56,7 +55,11 @@ const About = () => {
               data-aos-duration="1000"
             />
             <p className="descrp" data-aos="fade-up" data-aos-duration="1500">
-              Solusi Digital Kita (SDK) adalah konsultan IT yang menyediakan pengembangan Website dan Aplikasi Mobile, khususnya untuk Human Resource Information System (HRIS) dan Learning Management System (LMS). Kami juga melayani pembuatan custom web dan mobile apps sesuai kebutuhan bisnis Anda.
+              Solusi Digital Kita (SDK) adalah konsultan IT yang menyediakan
+              pengembangan Website dan Aplikasi Mobile, khususnya untuk Human
+              Resource Information System (HRIS) dan Learning Management System
+              (LMS). Kami juga melayani pembuatan custom web dan mobile apps
+              sesuai kebutuhan bisnis Anda.
             </p>
           </div>
           <div className="singletab">
@@ -66,7 +69,10 @@ const About = () => {
                   key={id}
                   className={`nav-links ${isTabActive === value ? "active" : ""} `}
                 >
-                  <button onClick={() => handleTabClick(value)} className="tablink">
+                  <button
+                    onClick={() => handleTabClick(value)}
+                    className="tablink"
+                  >
                     {name}
                   </button>
                 </li>
@@ -75,13 +81,11 @@ const About = () => {
             <div className="tabcontents">
               <AboutMe isTabActive={isTabActive} />
               <Experience isTabActive={isTabActive} />
-              {/* <Education isTabActive={isTabActive} /> */}
               <Skills isTabActive={isTabActive} />
             </div>
           </div>
         </div>
       </section>
-      {/* <Awards /> */}
     </>
   );
 };

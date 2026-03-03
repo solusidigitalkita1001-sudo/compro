@@ -28,18 +28,18 @@ const Contact = () => {
               data-aos-duration="1500"
             >
               <div className="contact__rightside cmn__bg">
-                <h4 className="mb-30">Feel free to contact me anytime</h4>
+                <h4 className="mb-30">Feel free to contact us anytime</h4>
                 <div className="contact__item mb-20">
                   <span className="he1">Email</span>
-                  <a href="#0">davidmatias333@gmail.com</a>
+                  <a href="#0">solusidigitalkita1001@gmail.com</a>
                 </div>
                 <div className="contact__item mb-20">
                   <span className="he1">Phone</span>
-                  <a href="#0">+(2) 871 382 023</a>
+                  <a href="#0">+(62) 895 3343 59983</a>
                 </div>
                 <div className="contact__item">
                   <span className="he1">Address</span>
-                  <span className="address">Victoria Street London</span>
+                  <span className="address">Panunggangan Timur, Alam Sutera, Tangerang</span>
                 </div>
               </div>
             </div>
