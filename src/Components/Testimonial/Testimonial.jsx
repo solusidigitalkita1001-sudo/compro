@@ -18,35 +18,31 @@ import { Pagination, Autoplay } from "swiper/modules";
 const reviewList = [
   {
     id: 1,
-    name: "Shawn Beltran",
+    name: "Mr. Owi",
     position: "Business Owner",
-    review: `There are many variations of passages of Lorem Ipsum
-    available, by injected humour, or randomised words which
-    don't look even slightly believable. If you are going to
-    use a passage of Lorem Ipsum, you need to be hidden in
-    middle of text. All the Lorem Ipsum generators`,
+    review: `Implementasi sistem HRIS yang dikembangkan sangat membantu
+    dalam mengelola data karyawan, absensi, dan payroll secara lebih
+    efisien. Tim bekerja profesional, responsif, dan mampu memahami
+    kebutuhan bisnis kami dengan baik.`,
     stars: [<StarFill className="ratting fz-20" />],
   },
   {
     id: 2,
-    name: "John Methcel",
+    name: "Desyptikon",
     position: "Business Owner",
-    review: `There are many variations of passages of Lorem Ipsum
-    available, by injected humour, or randomised words which
-    don't look even slightly believable. If you are going to
-    use a passage of Lorem Ipsum, you need to be hidden in
-    middle of text. All the Lorem Ipsum generators`,
+    review: `Platform LMS yang dibangun memberikan kemudahan dalam
+    mengelola materi pelatihan dan monitoring progres peserta.
+    Sistemnya stabil, user-friendly, dan sangat membantu proses
+    digitalisasi pembelajaran di perusahaan kami.`,
     stars: [<StarFill className="ratting fz-20" />],
   },
   {
     id: 3,
-    name: "Nethon Jr",
+    name: "Nad Tasya Jamet",
     position: "Business Owner",
-    review: `There are many variations of passages of Lorem Ipsum
-    available, by injected humour, or randomised words which
-    don't look even slightly believable. If you are going to
-    use a passage of Lorem Ipsum, you need to be hidden in
-    middle of text. All the Lorem Ipsum generators`,
+    review: `Pengembangan aplikasi custom berjalan sesuai timeline
+    dan kebutuhan yang kami ajukan. Solusi yang diberikan scalable,
+    aman, dan mampu meningkatkan efisiensi operasional secara signifikan.`,
     stars: [<StarFill className="ratting fz-20" />],
   },
 ];
@@ -55,12 +51,13 @@ const Testimonial = () => {
     <section className="testimonial__section pt-120 pb-120" id="testimonial">
       <div className="container">
         <div className="project__head text-center">
-          <span className="common__sub" data-aos="fade-up" data-aos-duration="1000">
-            Testimonial
+          <span className="common__sub">
+            Testimoni Klien
           </span>
-          <h2 className="fw-500" data-aos="fade-down" data-aos-duration="1000">
-            Happy Words From Happy
-            <span className="d-block"> Customer </span>
+
+          <h2 className="fw-500">
+            Dipercaya dalam Implementasi
+            <span className="d-block"> Solusi Digital Perusahaan </span>
           </h2>
         </div>
         <div
@@ -85,7 +82,7 @@ const Testimonial = () => {
                   loop={true}
                   modules={[Pagination, Autoplay]}
                 >
-                  {/* <div className="swiper-wrapper"> */}
+                  <div className="swiper-wrapper">
                   {reviewList.map(({ id, name, position, review, stars }) => {
                     return (
                       <SwiperSlide key={id}>
@@ -102,7 +99,7 @@ const Testimonial = () => {
                       </SwiperSlide>
                     );
                   })}
-                  {/* </div> */}
+                  </div>
                 </Swiper>
 
                 <div className="swiper-pagination3"></div>

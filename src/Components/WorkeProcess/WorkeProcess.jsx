@@ -39,8 +39,8 @@ const WorkeProcess = () => {
     <section className="process__section pt-120 pb-120">
       <div className="container">
         <Title
-          mainTitle="Your Dream Website In Just Few Steps"
-          sortTitle="Working Process"
+          mainTitle="Proses Pengembangan Solusi Digital"
+sortTitle="Bagaimana Kami Bekerja"
         />
         <div className="row g-4">
           {processList.map(({ id, info, list, title }) => (
