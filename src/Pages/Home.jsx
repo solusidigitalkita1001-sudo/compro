@@ -25,9 +25,9 @@ const Home = () => {
   return (
     <>
       {isFetching && <Preloader />}
-      <MarqueeWapper direction="left" images={images} />
+      {/* <MarqueeWapper direction="left" images={images} /> */}
       <About />
-      <MarqueeWapper direction="right" images={images2} />
+      {/* <MarqueeWapper direction="right" images={images2} /> */}
       {/* <Awards /> */}
       <Projects />
       <Metting />
