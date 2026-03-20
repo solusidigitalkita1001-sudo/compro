@@ -20,28 +20,25 @@ const Drawer = ({ isSidebarActive, setIsSidebarActive }) => {
           <img src={logo} alt="img" />
         </Link>
         <p>
-          Neque porro quisquam est, qui dolorem ipsum quia dolor sit
-          consectetur, aliquam quaerats voluptatem. Ut enim ad minima veniam,
-          exercitationem laboriosam, nisi ut aliquid ex ea autem velit esse quam
-          nihil
+          Solusi Digital Kita (SDK) adalah konsultan IT yang menyediakan pengembangan Website dan Aplikasi Mobile, khususnya untuk Human Resource Information System (HRIS) dan Learning Management System (LMS). Kami juga melayani pembuatan custom web dan mobile apps sesuai kebutuhan bisnis Anda.
         </p>
         <div className="sub__contact-left d-grid">
           <div className="sub__contac-item">
             <div className="content">
-              <span className="address d-block"> address </span>
-              <span className="textp"> Victoria Street London, </span>
+              <span className="address d-block"> Alamat </span>
+              <span className="textp"> Panunggangan Timur, Alam Sutera, Tangerang </span>
             </div>
           </div>
           <div className="sub__contac-item">
             <div className="content">
               <span className="address d-block"> email </span>
-              <Link className="textp"> matias999@.com </Link>
+              <Link className="textp"> solusidigitalkita1001@gmail.com </Link>
             </div>
           </div>
           <div className="sub__contac-item">
             <div className="content">
               <span className="address d-block"> call now </span>
-              <Link className="textp"> +98 4758 2154 021 </Link>
+              <Link className="textp"> +(62) 895 3343 59983 </Link>
             </div>
           </div>
         </div>

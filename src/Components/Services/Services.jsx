@@ -5,33 +5,33 @@ import Title from "../Shared/Title/Title";
 const serviceList = [
   {
     id: "01",
-    heading: "Illustration Design",
-    subHeading: "Designer",
-    para: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. sunt in culpa qui officia deserunt mollit",
+    heading: "Employee Management",
+    subHeading: "Manajemen Karyawan",
+    para: "Kelola data karyawan secara terpusat, termasuk profil pribadi, informasi kontak, riwayat pekerjaan, dan dokumen penting lainnya dengan sistem yang aman dan terorganisir.",
   },
   {
     id: "02",
-    heading: "Business Branding",
-    subHeading: "Branding",
-    para: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. sunt in culpa qui officia deserunt mollit",
+    heading: "Payroll Management",
+    subHeading: "Manajemen Penggajian",
+    para: "Proses penggajian otomatis dengan perhitungan pajak akurat, slip gaji digital, dan integrasi dengan sistem perbankan untuk transfer gaji yang efisien.",
   },
   {
     id: "03",
-    heading: "Web UI/UX Design",
-    subHeading: "UI/UX Design",
-    para: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. sunt in culpa qui officia deserunt mollit",
+    heading: "Attendance & Leave",
+    subHeading: "Kehadiran & Cuti",
+    para: "Kelola absensi karyawan secara real-time, tracking kehadiran masuk/keluar, manajemen permintaan cuti, dan laporan kehadiran yang komprehensif.",
   },
   {
     id: "04",
-    heading: "Application Design",
-    subHeading: " Web Design",
-    para: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. sunt in culpa qui officia deserunt mollit",
+    heading: "Recruitment & Hiring",
+    subHeading: "Rekrutmen & Perekrutan",
+    para: "Streamline proses rekrutmen dari posting lowongan, screening pelamar, hingga onboarding karyawan baru dengan workflow yang terstruktur.",
   },
   {
     id: "05",
-    heading: " Digital Marketing",
-    subHeading: "SEO Analytics",
-    para: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. sunt in culpa qui officia deserunt mollit",
+    heading: "Performance & Analytics",
+    subHeading: "Performa & Analitik",
+    para: "Monitor kinerja karyawan, kelola evaluasi berkala, analisis tren SDM, dan buat keputusan strategis berbasis data untuk pengembangan bisnis.",
   },
 ];
 const Services = ({ isHeading }) => {
@@ -43,8 +43,8 @@ const Services = ({ isHeading }) => {
       <div className="container">
         {isHeading && (
           <Title
-            mainTitle="My Special Service For Your Business Development"
-            sortTitle="Services That i Provide"
+            mainTitle="Layanan Khusus Kami untuk Pengembangan Bisnis Anda"
+            sortTitle="Layanan yang Kami sediakan"
           />
         )}
 

@@ -15,12 +15,12 @@ const socalList = [
   },
   {
     id: 3,
-    platfrom: "Dribble",
+    platfrom: "Whatsapp",
     icon: <ArrowRight />,
   },
   {
     id: 4,
-    platfrom: "Webflow",
+    platfrom: "Threads",
     icon: <ArrowRight />,
   },
 ];
@@ -30,14 +30,15 @@ const Footer = () => {
       <div className="container">
         <div className="footer__top pt-120 pb-120">
           <div className="fl" data-aos="fade-up" data-aos-duration="1000">
-            Get In Touch
+            Hubungi Kami
           </div>
           <div className="row g-4">
             <div className="col-lg-6">
               <div className="get__content">
                 <p>
-                  Hello, I’m David Matias, Website & User Interface Designer
-                  based in London.
+                  Solusi Digital Kita adalah perusahaan pengembangan perangkat lunak terkemuka
+                  dan penyedia solusi digital, menghadirkan produk teknologi
+                  inovatif dan layanan untuk bisnis di seluruh dunia.
                 </p>
                 <a href="#0">solusidigitalkita1001@gmail.com</a>
               </div>
@@ -65,20 +66,20 @@ const Footer = () => {
         <div className="container">
           <div className="copyright">
             <p className="white">
-              Copyright © 2023{" "}
+              Hak Cipta © 2025{" "}
               <Link to={"/"} className="base">
-                Matias.
+                SDK.
               </Link>{" "}
-              All rights reserved.
+              Semua hak dilindungi.
             </p>
-            <ul className="terms">
+            {/* <ul className="terms">
               <li>
                 <a href="#0"> Terms & Condition </a>
               </li>
               <li>
                 <a href="#0"> Privacy Policy </a>
               </li>
-            </ul>
+            </ul> */}
             <a href="#about" className="toparrow">
               <i>
                 <ArrowUpShort />

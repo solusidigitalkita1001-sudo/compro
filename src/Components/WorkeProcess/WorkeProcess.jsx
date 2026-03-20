@@ -6,31 +6,31 @@ const processList = [
   {
     id: 1,
     title: "Concept",
-    info: "Nemo enim ipsam voluptatem voluptas sit aspernatur aut odit aut fugit",
+    info: "Tahap awal untuk memahami kebutuhan dan menentukan arah pengembangan website.",
     list: [
-      "Reviewing any existing branding",
-      "Target audience and competitors research",
-      "Developing a strategy",
+      "Meninjau kebutuhan dan tujuan pembuatan website",
+      "Analisis target pengguna dan kompetitor",
+      "Menyusun konsep dan strategi pengembangan",
     ],
   },
   {
     id: 2,
     title: "Design",
-    info: "Nemo enim ipsam voluptatem voluptas sit aspernatur aut odit aut fugit",
+    info: "Membuat tampilan website yang menarik, rapi, dan mudah digunakan.",
     list: [
-      "Developing wireframes and mockup",
-      "Choosing typography, color palettes,",
-      "Refining the design",
+      "Membuat wireframe dan mockup desain",
+      "Menentukan warna, typography, dan style visual",
+      "Menyempurnakan desain sebelum tahap development",
     ],
   },
   {
     id: 3,
-    title: "Webflow",
-    info: "Nemo enim ipsam voluptatem voluptas sit aspernatur aut odit aut fugit",
+    title: "Development",
+    info: "Tahap implementasi desain menjadi website yang siap digunakan.",
     list: [
-      "Testing the website thoroughly launch",
-      "Choosing typography, color palettes,",
-      "Refining the design",
+      "Membangun website sesuai desain yang telah dibuat",
+      "Mengintegrasikan fitur dan kebutuhan sistem",
+      "Melakukan testing dan memastikan website siap digunakan",
     ],
   },
 ];
@@ -39,8 +39,8 @@ const WorkeProcess = () => {
     <section className="process__section pt-120 pb-120">
       <div className="container">
         <Title
-          mainTitle="Your Dream Website In Just Few Steps"
-          sortTitle="Working Process"
+          mainTitle="Website Impian Anda Hanya dalam Beberapa Langkah"
+          sortTitle="Proses Kerja Kami"
         />
         <div className="row g-4">
           {processList.map(({ id, info, list, title }) => (

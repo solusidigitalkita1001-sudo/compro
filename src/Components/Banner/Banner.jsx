@@ -60,10 +60,10 @@ const Banner = () => {
             <div className="banner__content">
               <Link to={""} className="bn__currently">
                 <span className="d-block">
-                  Currently available for freelance
+                  Solusi digital untuk bisnis Anda
                 </span>
                 <span className="d-flex gap-4 align-items-center">
-                  worldwide
+                  modern, efektif, dan mudah digunakan
                   <i className="bi bi-arrow-up-right"></i>
                 </span>
               </Link>
