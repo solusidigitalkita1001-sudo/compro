@@ -34,6 +34,22 @@ const partnerList = [
     id: 5,
     image: partner1,
   },
+  {
+    id: 6,
+    image: partner1,
+  },
+  {
+    id: 7,
+    image: partner1,
+  },
+  {
+    id: 8,
+    image: partner1,
+  },
+  {
+    id: 9,
+    image: partner1,
+  },
 ];
 const Partner = () => {
   return (

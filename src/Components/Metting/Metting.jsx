@@ -14,7 +14,7 @@ const Metting = () => {
                   data-aos="fade-down"
                   data-aos-duration="1000"
                 >
-                  Need a Project?
+                  Siap Memulai Proyek Anda?
                 </span>
                 <h2
                   className="fw-500"
